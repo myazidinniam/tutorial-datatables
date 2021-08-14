@@ -1,6 +1,10 @@
-##Cara Membuat DataTables Server Side di Laravel
+## Cara Membuat DataTables Server Side di Laravel - Praktikum 1
 
 DataTables Server-side adalah proses terbaik untuk menampilkan data dari database dengan jumlah data mencapai ribuan, dengan metode server-side ini tiap data yang di tampilkan melalui protokol HTTP Request dan di tampilkan melalui response AJAX kepada Client.
+
+## Cara Membuat DataTables Join Multiple Tables - Praktikum 2
+
+JOIN merupakan perintah di MySQL untuk menggabungkan 2 atau lebih tabel berdasarkan nilai kolom yang sama diantara kedua tabel, baik tabel yang berhubungan dengan acuan Primary Key dan Foreign Key atau menggunakan acuan kesamaan value.
 
 
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
