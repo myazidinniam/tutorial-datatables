@@ -13,9 +13,16 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// Route ini dibuat untuk memanggil method UserJson didalam class UserController
 Route::get('/', function () {
     return view('welcome');
 });
-
-// Route ini dibuat untuk memanggil method UserJson didalam class UserController
 Route::get('/UserJson', 'UserController@UserJson');
+
+
+
+// Route ini dibuat untuk memanggil method ArtikelJson didalam class ArtikelController
+Route::get('/datatablesjointable', function () {
+    return view('datatablesjointable/index');
+});
+Route::get('/ArtikelJson', 'ArtikelController@ArtikelJson');
